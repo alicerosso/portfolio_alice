@@ -104,6 +104,8 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -245,11 +247,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
-  text-decoration: underline;
+  color: #474b4b;
+  text-decoration: none;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: #a8b3b3;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -600,6 +602,18 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.img-fluid1{
+  height: 200px;
+  width: 375px;
+}
+.img-fluid2{
+  height: auto;
+  width: 375px;
+}
+.img-fluid3{
+  height: auto;
+  width: 250px;
 }
 
 .img-thumbnail {
